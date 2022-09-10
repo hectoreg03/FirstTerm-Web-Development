@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+  font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+body{
+    background-color: white;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: lighter;
+  color: rgb(87,87,97);
+  text-align: center;
+  margin:  10px;
+  margin-top: 75px;
+}
+
+h1{
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(77,78,96);
+  text-align: center ;
+  margin: 10px;
+}
+
+.quote{
+  text-align: center;
+  font-size: 18px;
+  font-weight: light;
+  color: rgb(169,170,172);
+  margin: 30px;
+}
+div > div{
+  display:block;
+  /*background-color: black;*/
+  position: absolute;
+  height: 250px;
+  width: 350px;
+  border-style: solid groove groove groove;
+  border-width: 5px 0px 0px 0px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 15px rgb(208,218,228);
+  padding: 20px;
+  /*box-shadow: 1px -1px 4px rgb(88,88,88)  ;*/
+  /*
+  border-top: 0px;
+  border-bottom: 20px;
+  border-left: 0px;
+  border-right: 0px;*/
+}
+
+h5{
+  font-size: 15px;
+  
+}
+
+.rightbox{
+  border-color: rgb(97,155,218);
+  margin-top: 185px;
+  margin-left: calc(50% + 200px);
+
+}
+
+.leftbox{
+  border-color: rgb(70,210,209);
+  margin-top: 185px;
+  margin-left: calc(50% - 550px);
+}
+
+.bottombox{
+  border-color: rgb(252,174,74);
+  margin-top: 325px;
+  margin-left: calc(50% - 175px);
+  margin-right: calc(50% - 175px);
+}
+
+.topbox{
+  border-color: rgb(236,83,85);
+  margin-top: 50px;
+  margin-left: calc(50% - 175px);
+  margin-left: calc(50% - 175px);
+}
+
+div > h5{
+  font-size: 22px;
+  font-weight: bolder;
+  color: rgb(77,78,96);
+  text-align: left;
+  margin: 10px; 
+}
+div > p{
+  font-size: 14px;
+  font-weight: lighter;
+  color: rgb(199,199,199);
+  text-align: left;
+  margin: 10px; 
+}
+img{ 
+  display: block;
+  margin-left: 230px;
+  margin-top: 35px;
+}
